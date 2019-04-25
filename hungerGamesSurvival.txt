@@ -1,0 +1,25 @@
+UNIQUE.ID	PARTICIPANT	DISTRICT	SEX	AGE	VOLUNTEER	CAREER	RATING	RATING.AVG	RATING.RAND	SURVIVAL.DAYS	RANK	WINNER	ALLIANCE
+1	Marvel	1	0	17	1	1	9	9	9	9	8	0	1
+2	Glimmer	1	1	17	1	1	10	10	10	5	11	0	1
+3	Cato	2	0	18	1	1	10	10	10	17	3	0	1
+4	Clove	2	1	15	1	1	10	10	10	12	6	0	1
+5	unknown	3	0	15	1	1		9	10	8	9	0	1
+6	unknown	3	1	16	0	0		5	4	1	14	0	
+7	unknown	4	0	13	1	1		9	9	1	14	0	
+8	unknown	4	1	16	1	1		9	8	5	12	0	1
+9	unknown	5	0	15	0	0		5	3	1	14	0	
+10	Foxface	5	1	15	0	0	5	5	5	15	4	0	0
+11	unknown	6	0	17	0	0		5	7	1	14	0	
+12	unknown	6	1	17	0	0		5	4	1	14	0	
+13	unknown	7	0	16	0	0		5	5	1	14	0	
+14	unknown	7	1	16	0	0		5	4	1	14	0	
+15	unknown	8	0	17	0	0		5	3	1	14	0	
+16	unknown	8	1	15	0	0		5	5	2	13	0	0
+17	unknown	9	0	15	0	0		5	4	1	14	0	
+18	unknown	9	1	14	0	0		5	5	1	14	0	
+19	unknown	10	0	18	0	0		5	4	8	10	0	0
+20	unknown	10	1	15	0	0		5	7	1	14	0	
+21	Thresh	11	0	18	0	0	10	10	10	14	5	0	0
+22	Rue	11	1	12	0	0	7	7	7	9	7	0	1
+23	Peeta	12	0	16	0	0	8	8	8	20	1	1	1
+24	Katniss	12	1	16	1	0	11	11	11	20	1	1	1
