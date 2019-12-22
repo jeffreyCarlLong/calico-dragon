@@ -1,0 +1,13 @@
+---
+title: "Hilbert Similarity"
+author: "Jeffrey Long"
+date: "12/22/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Hilbert Similarity
+
