@@ -9,5 +9,17 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Hilbert Similarity
+## Machine Learning Algorithm for High Dimensional Dataset
 
+"Quantifying similarity between high-dimensional single cell samples is challenging, and usually requires some simplifying hypothesis to be made. By transforming the high dimensional space into a high dimensional grid, the number of cells in each sub-space of the grid is characteristic of a given sample. Using a Hilbert curve each sample can be visualized as a simple density plot, and the distance between samples can be calculated from the distribution of cells using the Jensen-Shannon distance. Bins that correspond to significant differences between samples can identified using a simple bootstrap procedure." From [hilbertSimilarity](https://cran.r-project.org/web/packages/hilbertSimilarity/index.html)
+
+To clone the repo, [https://github.com/yannabraham/hilbertSimilarity.git](https://github.com/yannabraham/hilbertSimilarity.git). 
+
+```{r}
+devtools::install_github('yannabraham/hilbertSimilarity',build_vignettes = TRUE)
+```
+
+### rtools 
+
+In order to overcome a RcppExports.o Error 1 on compilation of the package hilbertSimilarity, the directions are  [https://thecoatlessprofessor.com/programming/cpp/r-compiler-tools-for-rcpp-on-macos/](https://thecoatlessprofessor.com/programming/cpp/r-compiler-tools-for-rcpp-on-macos/).
+On the new installation of Mac OS Catalina, rtools is required from [https://github.com/rmacoslib/r-macos-rtools/releases](https://github.com/rmacoslib/r-macos-rtools/releases).
