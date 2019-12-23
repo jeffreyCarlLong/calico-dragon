@@ -15,11 +15,29 @@ knitr::opts_chunk$set(echo = TRUE)
 
 To clone the repo, [https://github.com/yannabraham/hilbertSimilarity.git](https://github.com/yannabraham/hilbertSimilarity.git). 
 
-```{r}
-devtools::install_github('yannabraham/hilbertSimilarity',build_vignettes = TRUE)
-```
 
 ### rtools 
 
+The package is not behaving with R 3.6.2 and Catalina.
 In order to overcome a RcppExports.o Error 1 on compilation of the package hilbertSimilarity, the directions are  [https://thecoatlessprofessor.com/programming/cpp/r-compiler-tools-for-rcpp-on-macos/](https://thecoatlessprofessor.com/programming/cpp/r-compiler-tools-for-rcpp-on-macos/).
 On the new installation of Mac OS Catalina, rtools is required from [https://github.com/rmacoslib/r-macos-rtools/releases](https://github.com/rmacoslib/r-macos-rtools/releases).
+
+Also need to run $xcode-select --install$ in Terminal.
+
+```{r}
+library(Rcpp)
+library(entropy)
+# install.packages("dplyr")
+library(dplyr)
+library(tidyr)
+library(reshape2)
+# install.packages("bodenmiller")
+library(bodenmiller)
+library(abind)
+library(knitr)
+library(rmarkdown) 
+library(ggplot2)
+# devtools::install_github('yannabraham/hilbertSimilarity',build_vignettes = TRUE)
+library(hilbertSimilarity)
+```
+
