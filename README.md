@@ -1,9 +1,10 @@
-# GCP, TensorFlow, Machine Learning Blogs, N'at 
-
-## AKA The Critical Path
+# Machine Learning Blogs
 
 Title  |  Details |  Website
 -------------------------------  |  ----------------------------  | ------------------------------
+**R tidymodels** | R Machine Learning Framework from Hadley Wickham | [tidymodels](https://www.tidymodels.org/start/models/)
+**easystats: Quickly investigate model performance** | Inspiration to learn tidymodels | [R Bloggers](https://www.r-bloggers.com/2021/07/easystats-quickly-investigate-model-performance/)
+**Mixing centered and non-centered parameterizations in a hierarchical model with PyMC3** | Hierarchical models | [Joshua Cook](https://joshuacook.netlify.app/post/mixed-parameterization-hierarchical-model/)
 **parsnip** | Standardizes the interface for fitting models as well as their return values — separating model specification from model implementation | [Tidymodels](https://tidymodels.github.io/parsnip/)
 **Meetup slides: Introducing Deep Learning with Keras** | General Keras slides | [Shirin's playgRound](https://shirinsplayground.netlify.com/2018/04/ruhrpy_meetup_2018_slides/)
 **How to call bullshit on AI companies (aka a short lesson on recall)** | precision, recall, accuracy | [Cartesian Faith](https://cartesianfaith.com/2018/04/10/how-to-call-bullshit-on-ai-companies-aka-a-short-lesson-on-recall/)
