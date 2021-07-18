@@ -1,8 +1,9 @@
-# Machine Learning Blogs
+# Machine Learning Blogs and Resources
 
 Title  |  Details |  Website
 -------------------------------  |  ----------------------------  | ------------------------------
-**Machine Learning in R with tidymodels** | {parsnip} {tidymodels} {broom.mixed} {rstan} {skimr} | [Vignette by Jeffrey Long](https://github.com/jeffreyCarlLong/calico-dragon/blob/master/vignettes/r_ml_tidymodels.Rmd)
+{yardstick} | ROC curves, predicted model metrics | [yardstick package](https://tidymodels.github.io/yardstick/)
+**Machine Learning in R with tidymodels** | {parsnip} {tidymodels} {broom.mixed} {rstan} {skimr} {yardstick} | [Vignette by Jeffrey Long](https://github.com/jeffreyCarlLong/calico-dragon/blob/master/vignettes/r_ml_tidymodels.Rmd)
 **R tidymodels** | R Machine Learning Framework from Hadley Wickham | [tidymodels](https://www.tidymodels.org/start/models/)
 **easystats: Quickly investigate model performance** | Inspiration to learn tidymodels | [R Bloggers](https://www.r-bloggers.com/2021/07/easystats-quickly-investigate-model-performance/)
 **Mixing centered and non-centered parameterizations in a hierarchical model with PyMC3** | Hierarchical models | [Joshua Cook](https://joshuacook.netlify.app/post/mixed-parameterization-hierarchical-model/)
