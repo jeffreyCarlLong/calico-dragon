@@ -2,6 +2,10 @@
 
 Title  |  Details |  Website
 -------------------------------  |  ----------------------------  | ------------------------------
+{tidymodels} | Hadley Wickham brings ML to R `tidy()` | [tidy package](https://www.tidymodels.org/start/models/)
+{broom} | tidies 100+ models from popular modeling packages and almost all of the model objects in the stats package that comes with base R, `tidy()`, `glance()`, `augement()`, [vignette("broom")](https://broom.tidymodels.org/articles/broom.html) | [broom package](https://broom.tidymodels.org/)
+{rstanarm} | Bayesian prior distributions for rstanarm models, `stan_glm()`, `prior`, `prior_intercept`, `linear_reg` | [rstanarm package](https://mc-stan.org/rstanarm/articles/priors.html)
+{parsnip} | Train models with different engines, model type (random forests, linear regression, LSVM), mode (classification, regression), computational engine (R packages, methods), `set_engine()` | [parsnip package](https://tidymodels.github.io/parsnip/), [parsnip models](https://www.tidymodels.org/find/parsnip/)
 {yardstick} | ROC curves, predicted model metrics, `roc_curve()` and `roc_auc()` | [yardstick package](https://tidymodels.github.io/yardstick/)
 **Machine Learning in R with tidymodels** | {parsnip} {tidymodels} {broom.mixed} {rstan} {skimr} {yardstick} | [Vignette by Jeffrey Long](https://github.com/jeffreyCarlLong/calico-dragon/blob/master/vignettes/r_ml_tidymodels.Rmd)
 **R tidymodels** | R Machine Learning Framework from Hadley Wickham | [tidymodels](https://www.tidymodels.org/start/models/)
