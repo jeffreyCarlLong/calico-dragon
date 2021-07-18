@@ -2,19 +2,17 @@
 
 Title  |  Details |  Website
 -------------------------------  |  ----------------------------  | ------------------------------
-{tidymodels} | Hadley Wickham brings ML to R `tidy()` | [tidy package](https://www.tidymodels.org/start/models/)
-{broom} | Tidies 100+ models from popular modeling packages and almost all of the model objects in the stats package that comes with base R, `tidy()`, `glance()`, `augement()`, [vignette("broom")](https://broom.tidymodels.org/articles/broom.html) | [broom package](https://broom.tidymodels.org/)
-{recipes} | Feature engineering steps to process data, `step_date()`, `step_holiday()`, `step_rm()`, convert indicator variables to **one hot encoding** | [recipes package](https://recipes.tidymodels.org/)
-{workflows} | pairs a model and a recipe together `workflow()`, `add_model()`, `add_recipe()`
-{rsample} | Data splitting to create training and testing sets, `initial_split()`, `training()`, `testing()` | [rsample package](https://rsample.tidymodels.org/)
-{rstanarm} | Bayesian prior distributions for rstanarm models, `stan_glm()`, `prior`, `prior_intercept`, `linear_reg` | [rstanarm package](https://mc-stan.org/rstanarm/articles/priors.html)
-{parsnip} | Train models with different engines, model type (random forests, linear regression, LSVM), mode (classification, regression), computational engine (R packages, methods), `set_engine()` | [parsnip package](https://tidymodels.github.io/parsnip/), [parsnip models](https://www.tidymodels.org/find/parsnip/)
-{yardstick} | ROC curves, predicted model metrics, `roc_curve()` and `roc_auc()` | [yardstick package](https://tidymodels.github.io/yardstick/)
 **Machine Learning in R with tidymodels** | {parsnip} {tidymodels} {broom.mixed} {rstan} {skimr} {yardstick} | [Vignette by Jeffrey Long](https://github.com/jeffreyCarlLong/calico-dragon/blob/master/vignettes/r_ml_tidymodels.Rmd)
-**R tidymodels** | R Machine Learning Framework from Hadley Wickham | [tidymodels](https://www.tidymodels.org/start/models/)
+**{tidymodels}** | Hadley Wickham brings ML to R `tidy()` | [tidy package](https://www.tidymodels.org/start/models/)
+**{broom}** | Tidies 100+ models from popular modeling packages and almost all of the model objects in the stats package that comes with base R, `tidy()`, `glance()`, `augement()`, [vignette("broom")](https://broom.tidymodels.org/articles/broom.html) | [broom package](https://broom.tidymodels.org/)
+**{recipes}** | Feature engineering steps to process data, `step_date()`, `step_holiday()`, `step_rm()`, convert indicator variables to **one hot encoding** | [recipes package](https://recipes.tidymodels.org/)
+**{workflows}** | pairs a model and a recipe together `workflow()`, `add_model()`, `add_recipe()`
+**{rsample}** | Data splitting to create training and testing sets, `initial_split()`, `training()`, `testing()` | [rsample package](https://rsample.tidymodels.org/)
+**{rstanarm}** | Bayesian prior distributions for rstanarm models, `stan_glm()`, `prior`, `prior_intercept`, `linear_reg` | [rstanarm package](https://mc-stan.org/rstanarm/articles/priors.html)
+**{parsnip}** | Train models with different engines, model type (random forests, linear regression, LSVM), mode (classification, regression), computational engine (R packages, methods), `set_engine()` | [parsnip package](https://tidymodels.github.io/parsnip/), [parsnip models](https://www.tidymodels.org/find/parsnip/)
+**{yardstick}** | ROC curves, predicted model metrics, `roc_curve()` and `roc_auc()` | [yardstick package](https://tidymodels.github.io/yardstick/)
 **easystats: Quickly investigate model performance** | Inspiration to learn tidymodels | [R Bloggers](https://www.r-bloggers.com/2021/07/easystats-quickly-investigate-model-performance/)
 **Mixing centered and non-centered parameterizations in a hierarchical model with PyMC3** | Hierarchical models | [Joshua Cook](https://joshuacook.netlify.app/post/mixed-parameterization-hierarchical-model/)
-**parsnip** | Standardizes the interface for fitting models as well as their return values — separating model specification from model implementation | [Tidymodels](https://tidymodels.github.io/parsnip/)
 **Meetup slides: Introducing Deep Learning with Keras** | General Keras slides | [Shirin's playgRound](https://shirinsplayground.netlify.com/2018/04/ruhrpy_meetup_2018_slides/)
 **How to call bullshit on AI companies (aka a short lesson on recall)** | precision, recall, accuracy | [Cartesian Faith](https://cartesianfaith.com/2018/04/10/how-to-call-bullshit-on-ai-companies-aka-a-short-lesson-on-recall/)
 **ML models: What they can’t learn?** | True model plots | [R Bloggers](https://www.r-bloggers.com/ml-models-what-they-cant-learn/)
