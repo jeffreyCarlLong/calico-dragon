@@ -11,15 +11,53 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Medical Genetic Testing
 
-### Hiratzka et al 2010 Guidelines on Thoracic Aortic Disease 
+[Quest Diagnostics - Nonlipid Markers fo Cardiovascular Disease](https://testdirectory.questdiagnostics.com/test/test-guides/TG_NonLipidMkrs/nonlipid-markers-of-cardiovascular-disease?p=td)
 
-5.1.6. Recommendations for Familial Thoracic Aortic
-Aneurysms and Dissections
+[Genetic Testing for Inherited Cardiovascular Diseases: A Scientific Statement From the American Heart Association](https://www.ahajournals.org/doi/10.1161/HCG.0000000000000067) Kiran Musunuru, Ray E. Hershberger, Sharlene M. Day, N. Jennifer Klinedinst, Andrew P. Landstrom, Victoria N. Parikh, Siddharth Prakash, Christopher Semsarian, … See all authors 
 
-FBN1
-TGFBR1
-TGFBR2
-COL3A1
-ACTA2
-MYH11
+Originally published23 Jul 2020https://doi.org/10.1161/HCG.0000000000000067Circulation: Genomic and Precision Medicine. 2020;13:e000067
+
+
+
+[Hiratzka et al 2010 Guidelines on Thoracic Aortic Disease](https://www.ahajournals.org/doi/pdf/10.1161/CIR.0b013e3181d4739e)
+
+Section 5.1.6. is Recommendations for Familial Thoracic Aortic
+Aneurysms and Dissections.
+
+A small vessel vasculitis commonly associated with the human leukocyte antigen (HLA) B51 allele,( Hiratzka et al 2010^{187}) Behçet disease is 1 of 2 vasculitides that may also involve veins.
+
+The group of diseases labeled spondyloarthropathies are linked by the strong association of major histocompatibility complex HLA B-27 and the absence of rheumatoid factor.( Hiratzka et al 2010^{194,195})
+
+Familial thoracic aortic aneurysm and dissection syndrome
+
+
+### Breaking the details down by genes.
+
+Gene  |  Mutation_Detected  |  Source
+------  |   -----------  | ------------------------------------------
+KIF6  |  x  |  https://you.23andme.com/tools/data/?query=KIF6
+TGFBR2  |  x  |  https://you.23andme.com/tools/data/?query=TGFBR2
+TGFBR1  |  x  |  https://you.23andme.com/tools/data/?query=TGFBR1
+FBN1  |  x  |  https://you.23andme.com/tools/data/?query=FBN1
+FBN2  |  x  |  https://you.23andme.com/tools/data/?query=FBN2
+COL3A1  |  x  |  https://you.23andme.com/tools/data/?query=COL3A1
+MYH11  |  x  |  https://you.23andme.com/tools/data/?query=MYH11
+ACTA2  |  x  |  https://you.23andme.com/tools/data/?query=ACTA2
+
+### TGFBR2 
+
+"All 4 families had mutations that affected 
+**TGFBR2 arginine 460** of the receptor, 
+suggesting that **missense mutation** was associated with 
+familial thoracic aortic aneurysm and dissection 
+(ie, genotype-phenotype correlation)."
+
+### MYH11 -  smooth muscle cell–specific myosin heavy chain 11
+
+Sequencing DNA from 3 unrelated families with thoracic
+aortic aneurysm and dissection associated with patent ductus
+arteriosus identified MYH11 mutations in 2 of these families (Hiratzka et al 2010 $^{26}$)
+
+
+
 
