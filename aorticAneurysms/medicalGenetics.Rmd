@@ -1,0 +1,25 @@
+---
+title: "Aortic Aneurysms Research"
+author: "Jeffrey Long"
+date: "11/11/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Medical Genetic Testing
+
+### Hiratzka et al 2010 Guidelines on Thoracic Aortic Disease 
+
+5.1.6. Recommendations for Familial Thoracic Aortic
+Aneurysms and Dissections
+
+FBN1
+TGFBR1
+TGFBR2
+COL3A1
+ACTA2
+MYH11
+
