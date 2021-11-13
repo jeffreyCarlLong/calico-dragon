@@ -11,7 +11,58 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Medical Genetic Testing
 
+
+## Quest Tests
+
 [Quest Diagnostics - Nonlipid Markers fo Cardiovascular Disease](https://testdirectory.questdiagnostics.com/test/test-guides/TG_NonLipidMkrs/nonlipid-markers-of-cardiovascular-disease?p=td)
+
+### 23&Me SNP Details
+
+Bold alleles are much more common in population.
+
+Looked at malacards.org: AAT1, AAT2, AAT4, AAT9, AAT10, LDS2, 
+
+Genes  |  Marker (SNP)  |  Genomic Position  |  Variants  |  Your Genotype 
+-----  |  ------------  |  ----------------  |  --------  |  --------------
+intergenic  |  rs10033464  |  111720761  |  G or T  |  G / G
+intergenic  |  rs2200733  |  111710169  |  C or T  |  C / C
+LPA  |  rs10455872  |  161010118  |  A or G  |  A / A
+CYP2C19  |  rs4986893  |  96540410  |  A or **G**  |  G / G
+CYP2C19  |  rs3758581  |  96602623  |  A or G  |  not genotyped
+LPA  |  rs3798220  |  160961137  |  C or **T**  |  T / T
+KIF6  |  rs20455  |  39325078  |  A or G  |  not genotyped
+MYH11  |  rs749497185  |  15835369  |  — or **CT**  |  CT / CT
+MYH11  |  rs797045725  |  15829259  |  — or **TCTTCCAGCTCTGTCTTTAGGGCCTCCAGCTCCTCGCCGAGGTCTCGCT**  |  TCTTCCAGCTCTGTCTTTAGGGCCTCCAGCTCCTCGCCGAGGTCTCGCT / TCTTCCAGCTCTGTCTTTAGGGCCTCCAGCTCCTCGCCGAGGTCTCGCT
+NDE1, MYH11  |  rs142546324  |  15812194  |  **C** or T  |  C / C
+WNT1  |  rs148154047  |  49375317  |  **C** or T  |  C / C
+ACTA2  |  rs121434526  |  90701551  |  A or **G**  |  G / G
+ACTA2  |  rs112901682  |  90708573  |  A or **G**  |  G / G
+ACTA2  |  rs112602953  |  90703570  |  C or G  |  not genotyped
+ACTA2  |  rs387906592  |  90701066  |  **C** or T  |  C / C
+ACTA2-AS1, ACTA2  |  rs397516685  |  90699437  |  **C** or T  |  C / C
+GATA4  |  rs55633527  |  11615887  |  C or T  |  not genotyped
+SMAD3  |  rs387906853  |  67473635  |  A or **G**  |  G / G
+TGFBR2  |  rs104893813  |  30713738  |  C or **G**  |  G / G
+TGFBR2  |  rs727504421  |  30732957  |  **G** or T  |  G / G
+TGFBR2  |  rs727504292  |  30713742  |  C or **G**  |  G / G
+TGFBR2  |  rs863223852  |  30729968  |  **C** or T  |  C / C
+TGFBR2  |  rs28934568  |  30713598  |  C or T  |  not genotyped
+TGFBR2  |  rs35766612  |  30713834  |  A or G  |  not genotyped
+
+
+
+### Pharmacogenetic markers
+
+Test code(s) | Result (adults) | Interpretation | Therapeutic options
+------------ | --------------- | -------------- | -------------------
+CYP2C19 Genotype |  |  |      
+x LPA Aspirin Genotype  | Homozygous for LPA 4399Ile is normal risk (rs3798220: Jeff T/T or 4399Ile/Ile); Heterozygous or homozygous carrier of LPA 4399Met/Ile polymorphism is Increased LPA and risk for CHD | Low-dose aspirin therapy benefits carriers of the 4399Met/Ile polymorphism; treatment causes lower CHD risk with fewer bleeding events than noncarriers
+? KIF6 Genotype  |  Homozygous for KIF6 719Trp is Normal Risk for CHD; Heterozygous or homozygous carrier of 719Arg/Trp polymorphism is Carriers of 719Trp are at 1.55-fold increased risk for CHD | Statin therapy reduces CHD risk in carriers of the 719Arg/Trp polymorphism, increasing intensity of statin therapy may provide a more favorable lipid profile
+VKORC1 and CYP2C9 Genotype | Negative for warfarin sensitivity or resistance variants is Normal warfarin metabolizer; Heterozygous for one copy of a resistance variant, homozygous or compound heterozygous for two copies of a resistance variant is Warfarin resistance, increased risk of clotting; Heterozygous or homozygous for sensitivity variants is Increased sensitivity to warfarin, increased risk of bleeding
+
+
+
+### AHA Reference
 
 [Genetic Testing for Inherited Cardiovascular Diseases: A Scientific Statement From the American Heart Association](https://www.ahajournals.org/doi/10.1161/HCG.0000000000000067) Kiran Musunuru, Ray E. Hershberger, Sharlene M. Day, N. Jennifer Klinedinst, Andrew P. Landstrom, Victoria N. Parikh, Siddharth Prakash, Christopher Semsarian, … See all authors 
 
@@ -47,8 +98,8 @@ ACTA2  |  x  |  https://you.23andme.com/tools/data/?query=ACTA2
 ### TGFBR2 
 
 "All 4 families had mutations that affected 
-**TGFBR2 arginine 460** of the receptor, 
-suggesting that **missense mutation** was associated with 
+****TGFBR2 arginine 460**** of the receptor, 
+suggesting that ****missense mutation**** was associated with 
 familial thoracic aortic aneurysm and dissection 
 (ie, genotype-phenotype correlation)."
 
