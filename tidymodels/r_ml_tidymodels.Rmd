@@ -510,7 +510,7 @@ flights_pred %>%
   roc_auc(truth = arr_delay, .pred_late)
 ```
 
-Not too bad! We leave it to the reader to test out this workflow without this recipe. You can use `workflows::add_formula(arr_delay ~ .)` instead of `add_recipe()` (remember to remove the identification variables first!), and see whether our recipe improved our model’s ability to predict late arrivals.
+Not too bad! Next test out this workflow without this recipe. You can use `workflows::add_formula(arr_delay ~ .)` instead of `add_recipe()` (remember to remove the identification variables first!), and see whether our recipe improved our model’s ability to predict late arrivals.
 
 ### Session Info
 
