@@ -1,7 +1,7 @@
 ---
 title: "Machine Learning in R with Tidymodels"
 author: "Jeffrey Long"
-date: "7/17/2021"
+date: "12/5/2021"
 output: html_document
 ---
 
@@ -234,7 +234,7 @@ ggplot(urchins,
 ```
 
 
-## Preprocess you data with recipes
+## Preprocess data with recipes
 
 ```{r}
 set.seed(123)
