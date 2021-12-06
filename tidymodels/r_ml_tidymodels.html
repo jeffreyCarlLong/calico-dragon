@@ -307,7 +307,7 @@ urchins</code></pre>
 lm_fit</code></pre>
 <pre><code>## parsnip model object
 ## 
-## Fit time:  2ms 
+## Fit time:  3ms 
 ## 
 ## Call:
 ## stats::lm(formula = width ~ initial_volume * food_regime, data = data)
@@ -410,7 +410,7 @@ bayes_fit &lt;-
 print(bayes_fit, digits = 5)</code></pre>
 <pre><code>## parsnip model object
 ## 
-## Fit time:  10.2s 
+## Fit time:  10.1s 
 ## stan_glm
 ##  family:       gaussian [identity]
 ##  formula:      width ~ initial_volume * food_regime
@@ -877,7 +877,7 @@ flights_pred</code></pre>
 ##   .metric .estimator .estimate
 ##   &lt;chr&gt;   &lt;chr&gt;          &lt;dbl&gt;
 ## 1 roc_auc binary         0.761</code></pre>
-<p>Not too bad! We leave it to the reader to test out this workflow without this recipe. You can use <code>workflows::add_formula(arr_delay ~ .)</code> instead of <code>add_recipe()</code> (remember to remove the identification variables first!), and see whether our recipe improved our model’s ability to predict late arrivals.</p>
+<p>Not too bad! Next test out this workflow without this recipe. You can use <code>workflows::add_formula(arr_delay ~ .)</code> instead of <code>add_recipe()</code> (remember to remove the identification variables first!), and see whether our recipe improved our model’s ability to predict late arrivals.</p>
 </div>
 <div id="session-info" class="section level3">
 <h3>Session Info</h3>
