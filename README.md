@@ -2,7 +2,7 @@
 
 Title  |  Details |  Website
 -------------------------------  |  ----------------------------  | ------------------------------
-**My Machine Learning Cookbook - Jeffrey Long** | Machine Learning in R with tidymodels, {parsnip}, {tidymodels}, {broom.mixed}, {rstan}, {skimr}, {yardstick} | [jeffreyCarlLong GitHub R Vignette](https://github.com/jeffreyCarlLong/calico-dragon/blob/master/vignettes/r_ml_tidymodels.Rmd)
+**My Machine Learning Cookbook - Jeffrey Long** | Machine Learning in R with tidymodels, {parsnip}, {tidymodels}, {broom.mixed}, {rstan}, {skimr}, {yardstick} | [jeffreyCarlLong GitHub R Vignette](https://github.com/jeffreyCarlLong/calico-dragon/blob/master/tidymodels/r_ml_tidymodels.Rmd)
 **{tidymodels}** | Hadley Wickham brings ML to R `tidy()` | [tidy package](https://www.tidymodels.org/start/models/)
 **{broom}** | Tidies 100+ models from popular modeling packages and almost all of the model objects in the stats package that comes with base R, `tidy()`, `glance()`, `augement()`, [vignette("broom")](https://broom.tidymodels.org/articles/broom.html) | [broom package](https://broom.tidymodels.org/)
 **{recipes}** | Feature engineering steps to process data, `step_date()`, `step_holiday()`, `step_rm()`, convert indicator variables to **one hot encoding** | [recipes package](https://recipes.tidymodels.org/)
